@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,*::after,*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Title {
+    @apply text-Black font-bold md:text-[30px] text-[20px]
+}
+.Paragraph {
+    @apply text-DarkGray mb-[30px] text-[12px] md:text-[15px] md:mt-[35px] mt-[20px]
+}
